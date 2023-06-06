@@ -1,0 +1,6 @@
+export { default as Tia } from "./tia.png"
+export { default as SearchIco } from "./search_logo.svg"
+export { default as SearchVoiceIco } from "./search_logo_voice.svg"
+export { default as ArrowCloud } from "./arrow_cloud.svg"
+export { default as NotificationBell } from "./notification-bell.svg"
+export { default as Avatar } from "./avatar.jpg"

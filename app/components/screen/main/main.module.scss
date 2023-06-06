@@ -1,0 +1,19 @@
+.main {
+  @apply flex m-14 justify-center flex-col;
+
+  .category {
+    @apply flex items-center mb-10;
+
+    .categoryTitle {
+      @apply flex justify-center items-center rounded-full bg-white w-24 h-24;
+    }
+
+    .categoryList {
+      @apply flex mx-auto ml-24;
+
+      .categoryItem {
+        @apply ml-3.5 focus:scale-125 transition-all;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.header {
+  @apply flex m-14 items-center justify-between text-primary;
+
+  .title {
+    @apply flex items-center;
+
+    .avatar {
+      @apply rounded
+    }
+
+    .name {
+      @apply text-xl ml-2
+    }
+  }
+  .toolbar {
+    @apply flex items-center justify-around w-40;
+
+  }
+}

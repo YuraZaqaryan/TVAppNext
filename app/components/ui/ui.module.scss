@@ -1,0 +1,22 @@
+.logo {
+  @apply cursor-pointer
+}
+.searchBtn {
+  @apply flex justify-center items-center h-full w-20  bg-button_primary rounded-e-3xl ml-2 cursor-pointer border-l
+}
+.searchBtnVoice {
+  @apply ml-5 cursor-pointer
+}
+.BtnIconRounded {
+  @apply icon-button hover:bg-button_primary p-1;
+}
+.filter {
+  @apply w-full h-9 overflow-hidden relative;
+
+  .filterItem {
+    @apply inline-block ml-3 text-sm h-inherit bg-button_primary px-3.5 py-2 rounded-xl
+  }
+}
+.viewTV {
+  @apply outline-0;
+}
